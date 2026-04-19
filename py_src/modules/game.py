@@ -22,7 +22,7 @@ class Game:
         self.wave_ending = False
         self.quacking_sound_id = None
         
-        with open('src/data/levels.json', 'r') as f:
+        with open('data/levels.json', 'r') as f:
             levels_data = json.load(f)
         self.levels = levels_data['normal']
         

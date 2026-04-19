@@ -13,16 +13,16 @@ def main():
     pygame.mixer.init()
 
     # Load audio
-    sound.init('src/assets/sounds')
+    sound.init('assets/sounds')
 
     # Create window
     screen = pygame.display.set_mode((800, 600), pygame.RESIZABLE)
     pygame.display.set_caption("Duck Hunt JS (in Python)")
 
     # Load assets
-    Assets.load('dist/sprites.json', 'dist/sprites.png')
+    Assets.load('assets/sprites/sprites.json', 'assets/sprites/sprites.png')
 
-    game = Game({'spritesheet': 'dist/sprites.json'})
+    game = Game({'spritesheet': 'assets/sprites/sprites.json'})
     game.load(screen)
 
     clock = pygame.time.Clock()
