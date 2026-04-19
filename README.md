@@ -4,6 +4,23 @@
 
 This is an implementation of DuckHunt in Javascript and HTML5. It uses the PixiJS rendering engine, Green Sock Animations, Howler, and Bluebird Promises.
 
+## Stack Tecnológico
+
+### JavaScript (Versión Web)
+- **Node.js:** v24.14.0
+- **PixiJS:** ^8.0.0
+- **GSAP (GreenSock):** ^3.12.0
+- **HowlerJS:** ^2.2.4
+- **Bluebird:** ^3.7.2
+- **Webpack:** ^5.105.3
+- **Babel:** ^7.29.0
+- **ESLint:** ^9.39.3
+- **Gulp:** ^5.0.0
+
+### Python (Versión Escritorio)
+- **Python:** 3.11.9
+- **Pygame:** >=2.5.2
+
 ## Rendering
 This game supports WebGL and Canvas rendering via the PixiJS rendering engine.
 
