@@ -16,7 +16,29 @@ The animations in this game are a combination of PixiJS MovieClips built from sp
 ## Game Logic
 The flow of this game is managed using Javascript. The main chunks of business logic are implemented as ES6 classes which are transpiled to ES5 using Babel.
 
-## Working With This Repo
+## Working With This Repo (Python Version)
+
+Esta es una migración del juego a Python. Para ejecutar esta versión, sigue los siguientes pasos:
+
+1. Asegúrate de tener [Python](https://www.python.org/) instalado en tu sistema.
+2. Clona el repositorio y navega al directorio del proyecto.
+3. Se recomienda crear un entorno virtual:
+   ```bash
+   python -m venv venv
+   ```
+4. Activa el entorno virtual:
+   * En Windows: `.\venv\Scripts\activate`
+   * En macOS/Linux: `source venv/bin/activate`
+5. Instala las dependencias necesarias:
+   ```bash
+   pip install -r py_src/requirements.txt
+   ```
+6. Ejecuta el juego:
+   ```bash
+   python py_src/main.py
+   ```
+
+## Working With This Repo (JS Version)
 
  - You must have [nodejs](https://nodejs.org/) installed.
  - Clone the repo into a directory of your choice
